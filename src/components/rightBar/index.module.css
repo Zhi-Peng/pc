@@ -1,0 +1,152 @@
+.wrap {
+  position: absolute;
+  right: 28Px;
+  top: 94Px;
+  width: 240Px;
+  height: 100vh;
+}
+
+.top {
+  width: 240Px;
+  height: 233Px;
+  background: #fff;
+  padding-top: 28Px;
+  border-radius: 4Px;
+}
+
+.topTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 24Px;
+}
+.topIcon {
+  width: 41PX;
+  height: 23Px;
+  background: red;
+  margin-left: 5Px;
+}
+
+.phone {
+  font-size: 14Px;
+  color: #333;
+  margin: 24Px 0;
+  margin-left: 24Px;
+}
+
+.dateWrap {
+  .date {
+    width: 184Px;
+    margin-left: 24Px;
+  }
+  .useDate {
+    color: #999;
+    font-size: 12px;
+  }
+  .remainingDays {
+    color: #FF8000;
+    font-size: 12px;
+  }
+  .progress {
+    width: 184Px;
+    height: 6Px;
+    margin-top: 13Px;
+    margin-bottom: 19Px;
+    margin-left: 24Px;
+  }
+
+  .button {
+    width: 184Px;
+    height: 39Px;
+    line-height: 39Px;
+    background: #FD5500;
+    border-radius: 4Px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
+.bottom {
+  margin-top: 28Px;
+  border-radius: 4px;
+}
+.bottomImg {
+  height: 139Px;
+  background: red;
+}
+
+.barWrap {
+  padding: 0 16Px;
+  background: #fff;
+
+  .follow {
+    height: 93Px;
+    font-size: 12Px;
+    border-bottom: 2Px solid #F5F5F5;
+
+    .QRcode {
+      width: 42Px;
+      height: 42Px;
+      margin-right: 11Px;
+      background: red;
+    }
+
+    .followRight {
+      .followTitle {
+        margin-bottom: 10Px;
+        color: #333;
+      }
+      .followText {
+        color: #999;
+      }
+    }
+  }
+
+  .server {
+    padding-top: 24Px;
+    padding-bottom: 15Px;
+
+    .serverIcon {
+      width: 46Px;
+      height: 46Px;
+      background: red;
+      margin-right: 15Px;
+    }
+
+    .serverRight {
+    }
+    .serverTitle {
+      font-size: 16Px;
+    }
+    .serverText {
+      font-size: 12Px;
+      margin-top: 8Px;
+    }
+  }
+  .server:nth-of-type(2),
+  .server:nth-of-type(4) {
+    border-bottom: 2Px solid #F5F5F5;
+  }
+
+  
+  .news {
+    font-size: 12Px;
+    border-bottom: 2Px solid #F5F5F5;
+    padding-top: 24Px;
+    padding-bottom: 20Px;
+  }
+  .newsTitle {
+    margin-bottom: 10Px;
+    font-weight: bold;
+  }
+  .content {
+  }
+  .newsText {
+    line-height: 25Px;
+    display: block;
+    margin-top: 2Px;
+  }
+  .newsText:hover {
+    color: #FF5A21;
+  }
+}

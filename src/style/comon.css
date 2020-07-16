@@ -1,0 +1,21 @@
+:root {
+  --red: red;
+}
+
+#app {
+  position: relative;
+  min-width: 960Px;
+}
+
+
+
+
+
+
+
+
+
+// element ui style
+.el-icon-arrow-down {
+  font-size: 12px;
+}

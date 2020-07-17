@@ -1,0 +1,9 @@
+.wrap {
+  position: absolute;
+  top: 92Px;
+  left: 270Px;
+  right: 300Px;
+  min-width: 800Px;
+  height: 100vh;
+  background: red;
+}

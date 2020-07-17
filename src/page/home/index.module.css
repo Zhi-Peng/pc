@@ -1,11 +1,10 @@
 .wrap {
-  position: relative;
+  position: absolute;
   top: 92Px;
   left: 270Px;
-  width: 1478px;
-  height: 100vh;
-  background: green;
+  right: 300Px;
   min-width: 800Px;
+  height: 100vh;
 }
 
 .wrap1 {
@@ -17,6 +16,7 @@
 
   .wrap1Left {
     color: #333;
+    width: 300px;
   }
   .wrap1Title {
     font-size: 22px;
@@ -27,16 +27,18 @@
   .line {
     width: 2Px;
     height: 66px;
-    margin-left: 218px;
-    margin-right: 79px;
-    background: red;
+    background: #EFEFEF;
+  }
+  .wrap1Empty {
+    width: 80px;
   }
 
-  .wrap1Right {
-    font-size: 18px;
+ .wrap1Right {
+   width: 900px;
 
+   font-size: 18px; 
     .dealt {
-      margin-right: 85px;
+      width: 160px;
     }
     .dealt:nth-of-type(4) {
       margin-right: 0;
@@ -44,10 +46,11 @@
     .dealtItemIcon {
       width: 22px;
       height: 22px;
-      background: red;
+      color: #999999;
+      margin-right: 2px;
     }
     .dealtItemText {
-      margin-right: 25px;
+      margin-right: 15px;
       color: #999;
     }
     .dealtNum {
@@ -71,7 +74,7 @@
     color: #666;
     flex: 1;
     margin-right: 20px;
-    padding: 25px 0 25px 36px;
+    padding: 25px 0 25px 26px;
   }
   .wrap2Bar:nth-of-type(3) {
     margin-right: 0;
@@ -81,7 +84,6 @@
     .wrap2Icon {
       width: 66px;
       height: 66px;
-      background: red;
       margin-right: 25px;
     }
     .wrap2Title {
@@ -91,8 +93,8 @@
     .wrap2Arrow {
       width: 8Px;
       height: 10Px;
-      background: red;
       margin-left: 40px;
+      color: red;
     }
     .wrap2Text {
     }
@@ -101,9 +103,9 @@
   .wrap2Line {
     width: 2px;
     height: 56px;
-    background: red;
-    margin-left: 80px;
-    margin-right: 55px;
+    background: #EFEFEF;
+    margin-left: 60px;
+    margin-right: 35px;
   }
   .today {
     margin-bottom: 15px;
@@ -116,6 +118,7 @@
   margin-top: 20px;
   border-radius: 4px;
   padding: 25px;
+  box-sizing: border-box;
 }
 .wrap3Top {
   color: #333;
@@ -129,8 +132,213 @@
   font-size: 12Px;
 }
 .wrap3TopIcon {
-  width: 12px;
-  height: 12px;
-  background: red;
   margin-left: 5px;
+}
+
+.wrap3Bottom {
+  margin-top: 40px;
+
+  .wrap3Item {
+    text-align: center;
+    height: 120px;
+  }
+  .wrap3Item:nth-of-type(2) .wrap3Text2 {
+    color: #67C23A;
+  }
+  .wrap3Item:nth-of-type(5) .wrap3Text2 {
+    color: #F56C6C;
+  }
+
+  .wrap3Text1 {
+    font-size: 14px;
+  }
+  .wrap3Text2 {
+    font-size: 30px;
+  }
+
+  .wrap3ItemBottom {
+  }
+  .wrap3Text3 {
+    font-size: 12px;
+    color: #333;
+  }
+}
+
+
+.wrap4 {
+  height: 463px;
+  margin-top: 20px;
+
+  .wrap4Item {
+    width: 727px;
+    background: #fff;
+  }
+  .wrap4Item:nth-of-type(1) {
+    margin-right: 20px;
+  }
+}
+
+
+.wrap5 {
+  margin-top: 20px;
+  height: 162px;
+  background: #fff;
+  padding-top: 15px;
+  box-sizing: border-box;
+
+  .wrap5Top {
+    color: red;
+  }
+  .wrap5TopTitle {
+    font-size: 16px;
+    color: #333;
+    margin-left: 27px;
+  }
+  .wrap5TopBut {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #4664CD;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .wrap5Bottom {
+    flex-wrap: wrap;
+    padding-left: 50px;
+  }
+  .wrap5Item {
+    width: 23%;
+    height: 40px;
+    margin-top: 5px;
+  }
+  .wrap5ItemTag {
+    width: 22px;
+    height: 22px;
+    background: #00BF56;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  .wrap5ItemText {
+    font-size: 12px;
+    color: #333;
+  }
+}
+
+.wrap6 {
+  height: 189px;
+  margin-top: 20px;
+  background: #fff;
+  padding: 30px 26px 0 26px;
+  box-sizing: border-box;
+
+  .wrap6Top {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .wrap6Bottom {
+    margin-top: 23px;
+
+    .wrap6Item {
+      width: 347px;
+      height: 88px;
+      background:#44B07D;
+      border-radius: 4px;
+      text-align: center;
+      padding: 15px 0;
+      box-sizing: border-box;
+      color: #fff;
+    }
+    .wrap6Title {
+      font-size: 14px;
+    }
+    .wrap6Text {
+      font-size: 12px;
+    }
+  }
+}
+
+.wrap7 {
+  margin-top: 20px;
+
+  .wrap7Item {
+    height: 477px;
+    padding: 32px 28px 0 28px;
+    background: #fff;
+    box-sizing: border-box;
+
+  }
+  .wrap7Item:nth-of-type(1) {
+    margin-right: 20px;
+  }
+  .wrap7Top {
+    .wrap7Left {
+
+      color: #333;
+    }
+    .wrap7Title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .wrap7Date {
+      font-size: 12px;
+      margin-left: 10px;
+      margin-right: 3px;
+    }
+
+    .wrap7Right {
+      width: 100px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;;
+      color: 14px;
+      text-align: center;
+      color: #666;
+    }
+  }
+
+
+
+
+  .wrap7Bottom {
+    margin-top: 20px;
+
+    .tHead {
+      font-size: 14px;
+      color: #333;
+      font-weight: bold;
+    }
+
+
+    .tBody {
+      margin-top: 20px;
+    }
+
+    .tBody:nth-child(5) .serial,
+    .tBody:nth-child(6) .serial {
+      background: #DDDDDD;
+    }
+
+    .serial {
+      width: 18px;
+      height: 18px;
+      background: #FD5500;
+      border-radius: 50%;
+      color: #fff;
+      text-align: center;
+    }
+    .cover {
+      display: block;
+      width: 48px;
+      height: 48px;
+      background: red;
+      border-radius: 50%;
+    }
+
+
+
+
+  }
 }

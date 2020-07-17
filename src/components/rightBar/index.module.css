@@ -2,6 +2,7 @@
   position: absolute;
   right: 28Px;
   top: 94Px;
+  z-index: 20;
   width: 240Px;
   height: 100vh;
 }

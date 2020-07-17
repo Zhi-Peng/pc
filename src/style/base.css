@@ -235,6 +235,10 @@ body .missing {
 .row-center {
   align-items: center;
 }
+.row-center-center {
+  justify-content: center;
+  align-items: center;
+}
 .row-between-center {
   justify-content: space-between;
   align-items: center;
@@ -253,6 +257,11 @@ body .missing {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
+}
+.row-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* 文本省略号 */

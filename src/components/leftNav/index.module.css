@@ -8,11 +8,12 @@
   color: #fff;
   font-size: 14Px;
   padding-top: 10Px;
+  overflow-y: scroll;
 }
 
 
 .item {
-  display: contents;
+  display: flex;
   height: 60Px;
 
   .icon {

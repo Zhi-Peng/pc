@@ -2,7 +2,7 @@
   <div id="app">
     <top-nav />
     <left-nav />
-    <sub-nav class="vv" />
+    <sub-nav />
     <right-bar />
 
     <router-view></router-view>

@@ -1,5 +1,6 @@
 :root {
   --red: red;
+  --g3: #333;
 }
 
 img {
@@ -23,7 +24,6 @@ img {
 .el-icon-arrow-down {
   font-size: 12px;
 }
-
-
-
-
+.el-input .el-input-group__prepend {
+  padding: 0 10px;
+}

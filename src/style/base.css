@@ -210,7 +210,7 @@ a:link {
 }
 
 .hidden {
-  display: none!important;
+  display: none;
 }
 .opacity0 {
   opacity: 0!important;

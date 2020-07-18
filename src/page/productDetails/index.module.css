@@ -4,6 +4,222 @@
   left: 270Px;
   right: 300Px;
   min-width: 800Px;
-  height: 100vh;
-  background: red;
+  background: #fff;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.barUploadTitle,
+.barUploadTitleW {
+  width: 120Px;
+  text-align: right;
+  font-size: 14Px;
+  color: #666666;
+  padding-right: 12Px;
+  box-sizing: border-box;
+}
+.barUploadTitle::before {
+  content: '*';
+  color: #f56c6c;
+  margin-right: 4Px;
+}
+.barTip {
+  font-size: 12px;
+  color: #999;
+  margin-top: 8Px;
+  line-height: 14px;
+}
+
+.wrapLabel {
+  font-size: 14px;
+  color:#666666;
+}
+.wrapTip {
+  font-size: 14px;
+  color: #333;
+}
+
+.titleBox {
+  height: 35px;
+  line-height: 35px;
+  background: #F7F8FA;
+  font-size: 14px;
+  color: #333;
+  text-indent: 1em;
+  font-weight: bold;
+  margin-top: 25Px;
+  margin-bottom: 25Px;
+}
+
+.bar1 {
+  .bar1Title {
+    font-size: 16px;
+    color: #333;
+  }
+  .bar1Tab {
+    height: 46px;
+    line-height: 46px;
+    background: #F7F8FA;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bar1TabLeft {
+    width: 648px;
+    color: #fff;
+    background: #FD5500;
+  }
+  .bar1TabRight {
+    width: 640px;
+    color: #666;
+  }
+}
+
+
+.bar2 {
+  .bar2Content {
+    font-size: 14px;
+    color: #333;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .bar2Item {
+    position: relative;
+    z-index: 1;
+    width: 112Px;
+    height: 50Px;
+    border: 1Px solid #DDD;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .bar2ItemTitle {
+    line-height: 28Px;
+  }
+  .bar2ItemText {
+
+  }
+
+  .bar2ItemSelect {
+    display: none;
+  }
+
+  .bar2ItemActive.bar2Item {
+    border: 1Px solid #FD5500;
+  }
+  .bar2ItemActive .bar2ItemSelect {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 22Px;
+    height: 22Px;
+    background: url(../../assets/productDetails/bar2ItemSelectIcon.png)
+  }
+}
+
+
+
+.bar3 {
+  .bar3Input {
+    width: 230px;
+    height: 25px;
+  }
+  .bar3Input2 {
+    width: 440px;
+  }
+
+
+  .clickSee {
+    color: #3158D7;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+
+  
+  .bar3Upload1Box {
+    margin-top: 20Px
+  }
+  
+  .bar3Upload1 {
+
+  }
+  .bar3UploadBox {
+    width: 80Px;
+    height: 80Px;
+    line-height: 80Px;
+    border:1px solid #EAEBEC;
+    text-align: center;
+    color: #666;
+  }
+  .warningIcon {
+
+  }
+}
+
+
+
+.bar4 {
+  .addProductNum {
+    color: #333333;
+  }
+
+  .setting {
+    .settingTitle {
+      color: #FD5500;
+    }
+    .settingTitle::before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 7px solid #333333;
+      margin-top: 3px;
+      margin-right: 5px;
+    }
+    .active.settingTitle::before {
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 7px solid #333333;
+    }
+  }
+}
+
+
+
+.bar5{
+  
+  .bar5UploadTitle {
+
+  }
+  .barUploadTitle {
+    width: 160Px;
+    text-align: left;
+    font-size: 14Px;
+    color: #666666;
+    padding-right: 12Px;
+    box-sizing: border-box;
+  }
+  .bar5UploadTitle::before {
+    content: '*';
+    color: #f56c6c;
+    margin-right: 4Px;
+  }
+  .bar5Label {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+
+.bar6 {
+
 }

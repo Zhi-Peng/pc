@@ -2,8 +2,8 @@
   position: absolute;
   top: 92Px;
   left: 270Px;
-  right: 300Px;
-  min-width: 800Px;
+  right: 288Px;
+  min-width: 600Px;
   background: #fff;
   border-radius: 4px;
   padding-left: 20px;
@@ -21,6 +21,7 @@
   color: #666666;
   padding-right: 12Px;
   box-sizing: border-box;
+  flex: 0 0 auto;
 }
 .barUploadTitle::before {
   content: '*';
@@ -118,7 +119,7 @@
     display: block;
     width: 22Px;
     height: 22Px;
-    background: url(../../assets/productDetails/bar2ItemSelectIcon.png)
+    background: url(@assets/productDetails/bar2ItemSelectIcon.png)
   }
 }
 

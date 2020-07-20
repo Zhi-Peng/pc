@@ -9,19 +9,20 @@
   font-size: 14Px;
   padding-top: 10Px;
   overflow-y: scroll;
+  min-height: 960Px;
 }
 
+.nav {
 
-.item {
+}
+.bar {
   display: flex;
   height: 60Px;
 
   .icon {
-    width: 16Px;
-    height: 16Px;
-    background: red;
     margin-left: 24Px;
     margin-right: 10Px;
+    font-size: 22Px;
   }
 }
 .active {
@@ -33,3 +34,52 @@
 .item:hover {
   color: #FD5500;
 }
+
+.subNav {
+  position: fixed;
+  top: 64Px;
+  left: 118Px;
+  width: 132Px;
+  height: 100vh;
+  background: #fff;
+  overflow-y: scroll;
+  font-size: 14Px;
+}
+
+.title {
+  font-size: 16Px;
+  font-weight: bold;
+  margin-top: 30Px;
+  padding-left: 26Px;
+  box-sizing: border-box;
+  color: #FD5500;
+}
+
+.wrapBar {
+  margin-top: 20Px;
+
+  .barTitle {
+    width: 132Px;
+    height: 46Px;
+    line-height: 46Px;
+    color: #999;
+    padding-left: 26Px;
+    box-sizing: border-box;
+  }
+
+  .item {
+    width: 132Px;
+    height: 46Px;
+    line-height: 46Px;
+    padding-left: 26Px;
+    box-sizing: border-box;
+    color: #333;
+  }
+  .item:hover {
+    background: #F3F6FB;
+  }
+  .active {
+    background: #F3F6FB;
+  }
+}
+

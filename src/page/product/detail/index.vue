@@ -376,12 +376,14 @@ export default Vue.extend({
       rules: {
         region: [
           { required: true, message: '请输入活动名称', trigger: 'blur' },
-          { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }
-        ],
+          { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' } ],
       },
       radio: '1',
       fold1: true,
     }
+  },
+  mounted () {
+    console.log(this.$route.path, 'kkkkkkkkkk')
   },
 
   methods: {
@@ -406,7 +408,9 @@ export default Vue.extend({
     },
     handleRemoveBar5(index) {
       console.log(index, 'ppppp')
-      this.bar5List1.splice(index, 0)
+      this.bar5List1.splice(index, 1)
+
+      this.bar5List1 = this.bar5List1
     }
   }
   

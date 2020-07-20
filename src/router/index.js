@@ -1,31 +1,56 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../page/home/index.vue'
-import Product from '../page/product/index.vue'
-import ProductDetails from '../page/productDetails/index.vue'
-
 Vue.use(VueRouter)
 
-const product = [
-  {
-    path: '/product', component: Product,
-  },
-  {
-    path: '/product/details', component: ProductDetails
-  },
-]
-
-const home = [
-  { path: '/home', component: Home },
-  { path: '/', redirect: '/home' },
-]
+const dd = {
+  product: [
+    'attribute',
+    'detail',
+    'grouping',
+    'setting',
+    'specs',
+    'unit',
+    'upload'
+  ],
+  takeout: [
+    'survey',
+    'handle',
+    'find',
+    'quick',
+    'remind',
+    'setting',
+    'explain',
+  ]
+}
 const routes = [
-  ...product, ...home
+  {
+    path: '/home',
+    component: () => import('../page/home/index.vue')
+  },
+  {
+    path: '/',
+    redirect: '/home'
+  }
 ]
+const routeSetting = () => {
+  for (const [key, values] of Object.entries(dd)) {
+    for (const item of values) {
+      
+      routes.push({
+        path: `/${key}/${item}`,
+        component: () => import(`../page/${key}/${item}/index.vue`)
+      })
+    }
+  }
+}
+routeSetting()
 
-const router = new VueRouter({
+export default new VueRouter({
   mode: 'history',
   routes
 })
 
-export default router
+const originalPush = VueRouter.prototype.push;
+VueRouter.prototype.push = function(location) {
+  return originalPush.call(this, location).catch(err => err)
+}

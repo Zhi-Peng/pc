@@ -1,7 +1,7 @@
 .wrap {
   position: absolute;
   top: 92Px;
-  left: 270Px;
+  left: 138Px;
   right: 300Px;
   min-width: 800Px;
   height: 100vh;
@@ -170,8 +170,8 @@
   margin-top: 20px;
 
   .wrap4Item {
-    width: 727px;
     background: #fff;
+    flex: 1 1 auto;
   }
   .wrap4Item:nth-of-type(1) {
     margin-right: 20px;

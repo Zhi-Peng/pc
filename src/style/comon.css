@@ -27,3 +27,12 @@ img {
 .el-input .el-input-group__prepend {
   padding: 0 10px;
 }
+.el-input.is-active .el-input__inner,.el-input .el-input__inner:focus {
+	border-color:red;
+	outline:0;
+  color: green;
+}
+
+
+
+

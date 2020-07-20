@@ -3,7 +3,7 @@
   top: 92Px;
   left: 270Px;
   right: 288Px;
-  min-width: 600Px;
+  min-width: 1300Px;
   background: #fff;
   border-radius: 4px;
   padding-left: 20px;
@@ -119,7 +119,7 @@
     display: block;
     width: 22Px;
     height: 22Px;
-    background: url(@assets/productDetails/bar2ItemSelectIcon.png)
+    background: url('../../../assets/productDetails/bar2ItemSelectIcon.png')
   }
 }
 

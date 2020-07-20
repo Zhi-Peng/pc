@@ -12,7 +12,7 @@
 import './style/base.css'
 import './style/comon.css'
 import TopNav from './components/topNav'
-import LeftNav from './components/leftNav'
+import LeftNav from './components/leftNav/index.vue'
 import RightBar from './components/rightBar'
 
 export default {
@@ -31,10 +31,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .vv {
-    display: none;
-  }
-
-</style>

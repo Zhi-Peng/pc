@@ -103,7 +103,7 @@ const takeout = {
   ]
 }
 
-export default {//}}}
+export default {
   data () {
     return {
       style,

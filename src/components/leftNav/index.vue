@@ -36,14 +36,11 @@
         >{{childItem.text}}</div>
       </div>
     </div>
-
-
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
-import style from './index.module.css'
 import index from './index.js'
 
 export default Vue.extend(index)

@@ -1,6 +1,9 @@
 :root {
-  --red: red;
-  --g3: #333;
+  --white: #fff;
+  --c3: #333;
+  --c6: #666;
+  --c9: #999;
+  --line: #F9F9F9;
 }
 
 img {
@@ -8,8 +11,6 @@ img {
   height: 100%;
 }
 #app {
-  position: relative;
-  min-width: 960Px;
 }
 
 
@@ -28,9 +29,9 @@ img {
   padding: 0 10px;
 }
 .el-input.is-active .el-input__inner,.el-input .el-input__inner:focus {
-	border-color:red;
-	outline:0;
-  color: green;
+	/*border-color:red;*/
+	/*outline:0;*/
+  /*color: green;*/
 }
 
 

@@ -1,0 +1,21 @@
+.labelBase {
+  width: 110Px;
+  height: 32Px;
+  line-height: 32Px;
+  font-size: 14Px;
+  text-align: right;
+  color: var(--c6);
+  padding-right: 12pX;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+} 
+.labelTitle {
+  font-size: 14Px;
+  color: var(--c3);
+}
+
+.rules::before {
+  content: '*';
+  margin-right: 5Px;
+  color: red;
+}

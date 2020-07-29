@@ -1,10 +1,7 @@
 .wrap {
-  position: absolute;
-  right: 28Px;
-  top: 92Px;
-  z-index: 1;
   width: 240Px;
-  height: 100vh;
+  flex: 0 0 auto;
+  margin-right: 20px;
 }
 
 .top {

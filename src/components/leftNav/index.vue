@@ -1,5 +1,5 @@
 <template>
-  <div :class="style.wrap">
+  <div :class="style.wrap" class="row-">
     <div :class="style.nav">
       <a
         :class="[style.bar, i === selectIndex ? style.active : '' ]"

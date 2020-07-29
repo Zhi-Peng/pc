@@ -1,19 +1,15 @@
 .wrap {
-  position: fixed;
-  left: 0;
-  top: 64Px;
+  overflow-y: scroll;
+  flex: 0 0 auto;
+}
+
+.nav {
   width: 118Px;
   height: 100%;
   background: #393836;
   color: #fff;
   font-size: 14Px;
-  padding-top: 10Px;
   overflow-y: scroll;
-  min-widnt: 960Px;
-}
-
-.nav {
-
 }
 .bar {
   display: flex;
@@ -36,11 +32,7 @@
 }
 
 .subNav {
-  position: fixed;
-  top: 64Px;
-  left: 118Px;
   width: 132Px;
-  height: 100vh;
   background: #fff;
   overflow-y: scroll;
   font-size: 14Px;

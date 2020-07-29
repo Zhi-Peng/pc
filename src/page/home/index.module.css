@@ -1,22 +1,15 @@
 .wrap {
-  position: absolute;
-  top: 92Px;
-  left: 138Px;
-  right: 300Px;
-  min-width: 800Px;
-  height: 100vh;
 }
 
 .wrap1 {
-  height: 113px;
+  height: 113Px;
   background: #fff;
-  padding: 0 39px;
   box-sizing: border-box;
   border-radius: 4Px;
 
   .wrap1Left {
     color: #333;
-    width: 300px;
+    flex: 0 0 auto;
   }
   .wrap1Title {
     font-size: 22px;
@@ -26,30 +19,26 @@
 
   .line {
     width: 2Px;
-    height: 66px;
+    height: 66Px;
     background: #EFEFEF;
-  }
-  .wrap1Empty {
-    width: 80px;
   }
 
  .wrap1Right {
-   width: 900px;
-
+   flex: 0 0 auto;
    font-size: 18px; 
     .dealt {
       width: 160px;
+      flex: 1;
     }
     .dealt:nth-of-type(4) {
       margin-right: 0;
     }
     .dealtItemIcon {
-      width: 22px;
-      height: 22px;
       color: #999999;
       margin-right: 2px;
     }
     .dealtItemText {
+      width: 65Px;
       margin-right: 15px;
       color: #999;
     }

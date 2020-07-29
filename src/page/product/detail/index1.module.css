@@ -1,0 +1,304 @@
+.wrap {
+  border-radius: 4px;
+  padding: 0 20px;
+  color: var(--c3);
+  background: var(--white);
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+
+/**
+ *
+ * 公共样式
+ *
+ * */
+.titleBox {
+  height: 35pX;
+  line-height: 35Px;
+  padding-left: 20px;
+  background: #F7F8FA;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.uploadBox {
+  color: var(--c6);
+}
+.uploadWrap {
+  width: 80Px;
+  height: 80Px;
+  line-height: 80pX;
+  text-align: center;
+  border: 1px solid #EAEBEC;
+  font-size: 14Px;
+  margin-bottom: 5Px;
+}
+
+.wrapTip {
+  margin-left: 110Px;
+  margin-bottom: 20Px;
+  font-size: 12px;
+  color: var(--c9);
+
+  &See {
+    color: #3158D7;
+  }
+}
+.wrapTipMax {
+  font-size: 14Px;
+  color: var(--c3);
+
+  &See {
+    color: #3158D7;
+  }
+}
+.wrapInput {
+  width: 230Px;
+}
+.wrapInputLen {
+  width: 440pX;
+}
+/**
+ *
+ * wrap1
+ *
+ * */
+.wrap1 {/*{{{*/
+  margin-bottom: 20px;
+
+  &Title {
+    height: 75px;
+    line-height: 75px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &Bottom {
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  &Type1 {
+    width: 648px;
+    color: var(--white);
+    background: #FD5500;
+  }
+  &Type2 {
+    width: 640px;
+    color: var(--c6);
+    background: #F7F8FA;
+  }
+}/*}}}*/
+
+
+/**
+ *
+ * wrap2
+ *
+ * */
+.wrap2 {
+  &List {
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  &Item {
+    position: relative;
+    width: 112Px;
+    height: 50Px;
+    border: 1Px solid #DDDDDD;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+    &Title {
+      font-size: 14Px;
+      margin-top: 5Px;
+    }
+    &Text {
+      font-size: 12Px;
+      color: var(--c9);
+    }
+  }
+  &Icon {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 22Px;
+    height: 22Px;
+    background: url(../../../assets//productDetails/bar2ItemSelectIcon.png);
+  }
+
+  &Active {
+    border: 1px solid #FD5500;
+
+    .wrap2ItemTitle {
+      color: #FD5500;
+    }
+    .wrap2Icon {
+      display: block;
+    }
+  }
+}
+
+
+
+/**
+ *
+ * wrap3
+ *
+ * */
+.wrap3 {
+  &Form {
+    margin-top: 30px;
+  }
+}
+
+
+
+/**
+ *
+ * wrap4
+ *
+ * */
+  .wrap4 {
+
+  }
+  .wrap4Bar {
+    margin-top: 30Px;
+  }
+  .wrap4InputNum {
+    font-size: 13Px;
+  }
+
+
+
+/**
+ *
+ * wrap5
+ *
+ * */
+  .wrap5 {
+
+  }
+  .wrap5Fold {
+    color: #FD5500;
+  }
+  .wrap5Fold:before {
+    position: relative;
+    content: '';
+    border-top: 5Px solid transparent;
+    border-bottom: 5Px solid transparent;
+    border-left: 5Px solid red;
+    margin-right:5px;
+  }
+  .wrap5Active.wrap5Fold:before {
+    top: 5px;
+    border-left: 5Px solid transparent;
+    border-right: 5Px solid transparent;
+    border-top: 5Px solid red;
+  }
+
+
+
+/**
+ *
+ * wrap6
+ *
+ * */
+  .wrap6Content {
+    align-items: baseline;
+  }
+  .wrap6Item {
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #F7F8FA;
+  }
+  .wrap6List {
+    flex-wrap: wrap;
+  }
+  .wrap6Input {
+    width: 90Px;
+    height: 37Px;
+    line-height: 37Px;
+    text-align: center;
+    color: var(--c6);
+    margin-right: 5px;
+  }
+  .removeBut {
+    cursor: pointer;
+    width: 80Px;
+    height: 50px;
+    line-height: 50px;
+    color: var(--c3);
+  }
+  .addProps {
+    color: #3158D7;
+    cursor: pointer;
+    margin-top: 30px;
+  } 
+
+
+
+/**
+ *
+ * wrap7
+ *
+ * */
+  .wrap7 {
+    margin-top: 30px;
+  }
+  .templateInput {
+    width: 136Px;
+  }
+  .templateInput1 {
+    width: 115Px;
+  }
+
+
+
+
+/**
+ *
+ * wrap8
+ *
+ * */
+  .wrap8 {
+    padding-bottom: 40Px;
+  }
+
+
+
+
+/**
+ *
+ * wrap9
+ *
+ * */
+  .wrap9 {
+    height: 52Px;
+    background: var(--white);
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+  .wrap9Btn1 {
+    width:104Px;
+    height:32Px;
+    line-height: 32Px;
+    border:1px solid rgba(221,221,221,1);
+    border-radius:2px;
+  }
+  .wrap9Btn2 {
+    width:76Px;
+    height:32Px;
+    line-height: 32Px;
+    border-radius:2px;
+    background: #E94D20;
+    margin-left: 10px;
+  }

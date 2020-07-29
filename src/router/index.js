@@ -33,15 +33,19 @@ const routes = [
   }
 ]
 const routeSetting = () => {
-  for (const [key, values] of Object.entries(dd)) {
-    for (const item of values) {
+  routes.push({
+    path: '/product/grouping',
+    component: () => import(`../page/product/grouping/index.vue`)
+  })
+  //for (const [key, values] of Object.entries(dd)) {
+    //for (const item of values) {
       
-      routes.push({
-        path: `/${key}/${item}`,
-        component: () => import(`../page/${key}/${item}/index.vue`)
-      })
-    }
-  }
+      //routes.push({
+        //path: `/${key}/${item}`,
+        //component: () => import(`../page/${key}/${item}/index.vue`)
+      //})
+    //}
+  //}
 }
 routeSetting()
 

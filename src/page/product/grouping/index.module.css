@@ -1,9 +1,4 @@
 .wrap {
-  position: absolute;
-  top: 92Px;
-  left: 270Px;
-  right: 300Px;
-  min-width: 800Px;
   background: #fff;
   border-radius: 4px;
   padding-left: 20px;
@@ -11,4 +6,27 @@
   padding-top: 25px;
   box-sizing: border-box;
   font-size: 12px;
+}
+
+.addBut1 {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background: red;
+  text-align: center;
+}
+.tabelText1,
+.tabelText2,
+.tabelText3 {
+  border-bottom: 1px solid red;
+}
+
+.addValueBut {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: 4px;
 }
